@@ -578,3 +578,9 @@ You learned:
 * How to bind variables, loop through lists, and build UI from logic
 
 Now go break it. Change things. Experiment. That’s how you actually learn.
+
+## Must Study
+
+TypeScript review for JS developers:
+
+  * https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
