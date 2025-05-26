@@ -16,10 +16,18 @@ export class TodoListComponent implements OnInit{
   constructor(private todosService: TodosService) {
     
   }
+   ngOnInit(): void {
+    this.todosService.getAll().subscribe(
+      {
+        next: (data) => {
+          this.todos =  data;
+        },
+        error: (err) => {
+          console.log('Error in getAll () ', err)
+        }
+      }
+    );
 
-  ngOnInit(): void {
-    this.todos = this.todosService.getAll();
   }
 
- // complete todo
 }
