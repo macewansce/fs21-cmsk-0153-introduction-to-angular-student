@@ -1,4 +1,4 @@
-# Assignment 4: Managing Items in Angular
+# Assignment 4: Managing Devices in Angular
 
 ## Objective
 Build an Angular application to manage a list of devices using the provided classes and services.
@@ -14,7 +14,7 @@ Build an Angular application to manage a list of devices using the provided clas
    - **ManageDevicesComponent**:
      - Implement two key functions:
        - **List Devices**: Display all items in a table or list format.
-       - **Add Item Form**: Create a form to add new items with fields for `brand` and `model`. Ensure the form validates user input.
+       - **Add Device Form**: Create a form to add new items with fields for `brand` and `model`. Ensure the form validates user input.
 
 4. **Service**:
    - Use `DevicesService` to interact with the backend (`db.json`).
